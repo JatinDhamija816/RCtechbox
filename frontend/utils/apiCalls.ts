@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'http://localhost:8000/api/v1/task'
+const API_URL = 'https://r-ctechbox-jvti.vercel.app/api/v1/task'
 
 export const createTask = async (task: string) => {
     try {
